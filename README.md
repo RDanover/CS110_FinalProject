@@ -1,15 +1,19 @@
 # CS110 Final Project
 
 110 Final Project Proposal
+
 Rachel Danover, Ankita Ahluwalia, Krystal Pothilat
+
+Github:
+https://github.com/RDanover/CS110_FinalProject
 
 Project Idea:	
 Rate My Study Spot at UCR: 
-This website will allow users to browse various study spaces available on campus at UCR and review them based on factors such as cleanliness, quietness, capacity, food availability, and free wifi access. Users will be able to interact with other users via direct message to ask them questions about study spaces. Users will be rated based on the accuracy of their reviews by other users. 
+This website will allow users to browse various study spaces available on campus at UCR and review them based on factors such as cleanliness, quietness, capacity, food availability, and free wifi access. Users will be able to interact with other users via comments and replies on a user’s review. Users will be rated based on the accuracy of their reviews by other users. 
 
 Design Sketches:
 
-![image](https://github.com/RDanover/CS110_FinalProject/assets/60625627/dff586a9-2edd-45ec-af42-88b4b2e2f498)
+![image](https://github.com/RDanover/CS110_FinalProject/assets/60625627/b5dbe32e-a542-4433-8649-f9077403b07f)
 
 
 Task Allocation:
@@ -22,18 +26,17 @@ Team meetings will occur every Sunday from 12 - 3 pm on zoom, and we will meet e
 
 Profiling:
 Users will be able to view their own profile in the settings tab and update their information there. Users will also be able to see their own accuracy rating in their profile. 
-
-Users will also be able to view another person's profile by clicking their name on a review they have left. There the user will be able to either rate that user’s accuracy on a scale of 1-5 stars, or message them and ask them questions via direct message.
+Users will also be able to view another person's profile by clicking their name on a review they have left. There the user will also be able to rate that user’s accuracy on a scale of 1-5 stars.
 
 User Authentication and Authorization:
 Users will be able to access the login page which will allow them to either sign in with an existing account, sign in with their google account, create a new account, or create a new account using their google account. 
-A normal user will be able to change their own password, profile information, leave a review on a study space, leave a review about another user’s accuracy, and message another user. 
+A normal user will be able to change their own password, profile information, leave a review on a study space, leave a review about another user’s accuracy, and leave a comment/reply on a review. 
 
 Social Network:
-As mentioned in the profiling section users will be able to review another user’s accuracy on a scale of 1-5 stars, and be able to reach out to another user via direct message.
+As mentioned in the profiling section users will be able to review another user’s accuracy on a scale of 1-5 stars, and be able to interact by commenting/replying on a review.
 
 Rating and Commenting:
-Users will be available to view all reviews for all locations. Users can respond to reviews through thumbs up/down reactions.
+Users will be available to view all reviews for all locations. Users can respond to reviews through thumbs up/down reactions, as well as commenting and replying.
 Users can leave their own reviews for each location. The criteria that they must rate for the location are cleanliness, quietness, and capacity. The total score (out of 5) will be calculated based on the scores for these attributes. Additionally, users can write their thoughts for the location in the review. 
 
 Database:
@@ -57,6 +60,5 @@ We plan to have unit testing for each new feature created conducted by another m
 We plan to have an integration test every week as a group to ensure everything is working properly. 
 
 Ensuring Scalability and Security:
-To ensure scalability we will accommodate hundreds of users.
-To ensure scalability, we have to verify that we can add hundreds of data entries as well. 
+To ensure scalability we will accommodate hundreds of users and verify that we can add hundreds of data entries in the form of reviews, comments, and user ratings into our database. 
 To ensure security we will ensure we verify all user input to prevent cross site scripting or SQL injection attacks. 
