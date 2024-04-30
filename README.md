@@ -4,9 +4,6 @@
 
 Rachel Danover, Ankita Ahluwalia, Krystal Pothilat
 
-Github:
-https://github.com/RDanover/CS110_FinalProject
-
 Project Idea:	
 Rate My Study Spot at UCR: 
 This website will allow users to browse various study spaces available on campus at UCR and review them based on factors such as cleanliness, quietness, capacity, food availability, and free wifi access. Users will be able to interact with other users via comments and replies on a user’s review. Users will be rated based on the accuracy of their reviews by other users. 
